@@ -622,33 +622,54 @@
             </div>
         </section>
     </div>
-    <div>
+    <footer>
         <form action="" class="form__contacto">
-            <img src="./assets/logo-transparente.png" alt="">
+            <img src="./assets/logo-transparente.png" alt="" class="logo__footer">
             <h2>Contactanos</h2>
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Mensaje">
-            <input type="checkbox"  id="btn__checkbox">
-            <label for="btn__checkbox">Me gustaria recibir el Newsletter</label>
+            <div class="div__input">
+                <div class="container__nombre">
+                    <input type="text" name="nombreInput" required="">
+                    <label for="nombreInput" class="label__nombre">Nombre</label>
+                </div>
+                <div class="container__mail">
+                    <input type="email" name="emailInput" required="">
+                    <label for="emailInput" class="label__mail"  >Email</label>
+                </div>
+                <div class="container__mensaje">
+                    <input type="text" name="mensajeInput" class="input__mensaje" required>
+                    <label for="mensajeInput" class="label__mensaje">Mensaje</label>
+                </div>
+                <div class="div__btnCheck">
+                    <input type="checkbox" id="btn__checkbox">
+                    <label for="btn__checkbox">Me gustaria recibir el Newsletter</label>
+                </div>
+            </div>
             <button type="submit">Enviar</button>
         </form>
         <div class="datos__contacto">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo exercitationem voluptas quas quibusdam blanditiis similique, libero cum, aliquid natus nesciunt at eaque, quam itaque quos repellendus excepturi veniam pariatur.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.5561911433742!2d-68.8178239!3d-32.9627249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0b820d0c403d%3A0x236fff79a86c72ff!2sLos%20Escritores%202816%2C%20Maip%C3%BA%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1713128154377!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <ul>
-                <li><a href="https://maps.app.goo.gl/fXyiYq3rNigSgJFJA" target="_blank"><img src="./assets/pasador-de-ubicacion (1).png" alt="">Los escritores 2816 Barrio Cóndor y Andes Maipú Mendoza</a></li>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo exercitationem voluptas quas
+                quibusdam blanditiis similique, libero cum, aliquid natus nesciunt at eaque, quam itaque quos
+                repellendus excepturi veniam pariatur.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.5561911433742!2d-68.8178239!3d-32.9627249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0b820d0c403d%3A0x236fff79a86c72ff!2sLos%20Escritores%202816%2C%20Maip%C3%BA%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1713128154377!5m2!1ses-419!2sar"
+                width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <ul class="ul__contacto">
+                <li><a href="https://maps.app.goo.gl/fXyiYq3rNigSgJFJA" target="_blank"><img
+                            src="./assets/pasador-de-ubicacion (1).png" alt="">Los escritores 2816 Barrio Cóndor y Andes
+                        Maipú Mendoza</a></li>
                 <li><a href=""><img src="./assets/llamada-telefonica (1).png" alt="">+5492616965358</a></li>
                 <li><a href="https://wa.me/549261696535"><img src="./assets/whatsapp.png" alt="">+5492616965358</a></li>
                 <li><a href=""><img src="./assets/email.png" alt="">turismocordilleramendoza@gmail.com</a></li>
             </ul>
-            <div>
-                <a href="https://www.instagram.com/tcmdz.24?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="./assets/solicitud.png" alt=""></a>
+            <div class="iconos__redes">
+                <a href="https://www.instagram.com/tcmdz.24?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"><img src="./assets/solicitud.png" alt=""></a>
                 <a href=""><img src="./assets/facebook (1).png" alt=""></a>
             </div>
         </div>
 
-    </div>
+    </footer>
     <script src="./js/index.js"></script>
 </body>
 

@@ -525,3 +525,165 @@ figure.termasRH {
   background: rgba(0, 0, 0, 0.4);
 }
 
+footer{
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: center;
+  background-color: white;
+  padding-top: 4.375rem;
+}
+footer h2{
+  font-size: 4.375rem;
+  width: 31.25rem;
+  text-align: center;
+  
+}
+.form__contacto{
+  background-color: #30417F;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  align-items: center;
+  padding: 3.125rem 0 3.125rem 0;
+}
+.div__input{
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+.container__mail input, .container__nombre input{
+  width: 31.25rem;
+  height: 3.125rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: .0625rem solid white;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.container__mensaje input{
+  background-color: transparent;
+  border: none;
+  border-bottom: .0625rem solid white;
+  outline: none;
+  cursor: pointer;
+  height: 150px;
+}
+.container__nombre, .container__mail, .container__mensaje{ 
+  position: relative;
+
+}
+.label__nombre, .label__mail{
+  position: absolute;
+  font-size: 15px;
+  bottom: 0;
+  padding: 10px 0;
+  left: 2%;
+  cursor: pointer;
+  transition: 0.6s ease;
+  pointer-events: none;
+}
+
+.label__mensaje{
+  position: absolute;
+  font-size: 15px;
+  top: 20%;
+  left: 2%;
+  cursor: pointer;
+  transition: 0.6s ease;
+  pointer-events: none;
+}
+
+.container__mensaje input:focus ~ .label__mensaje,
+.container__mensaje input:valid ~ .label__mensaje{
+  top: 0;
+  font-size: 12px;
+  left: 0;
+}
+
+.container__mail input:focus ~ .label__mail,
+.container__mail input:valid ~ .label__mail{
+  bottom: 80%;
+  font-size: 12px;
+  left: 0;
+}
+
+.container__nombre input:focus ~ .label__nombre,
+.container__nombre input:valid ~ .label__nombre{
+  bottom: 80%;
+  font-size: 12px;
+  left: 0;
+} 
+
+.div__input div{
+  display: flex;
+  flex-direction: column;
+}
+
+.form__contacto div input::placeholder{
+  color: white;
+}
+
+
+
+.logo__footer{
+  width: 7rem;
+  height: 12.25rem;
+
+}
+.div__btnCheck{
+  position: relative;
+}
+.div__btnCheck label{
+  position: absolute;
+  left: 5%;
+}
+.div__btnCheck input{
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 20px;
+}
+label{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.form__contacto button{
+  background-color: #DD6928;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.25rem;
+}
+
+.datos__contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.875rem;
+  padding: 0 100px;
+  color: #141414;
+}
+
+.ul__contacto{
+  list-style: none;
+}
+.ul__contacto li a{
+  color: #141414;
+  text-decoration: none;
+}
+.ul__contacto li a img{
+  margin-right: .625rem;
+}
+
+.iconos__redes{
+  display: flex;
+  gap: .9375rem;
+}
+.iconos__redes img{
+  width: 45px;
+  height: 45px;
+}
