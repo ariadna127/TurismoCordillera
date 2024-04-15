@@ -525,9 +525,11 @@ figure.termasRH {
   background: rgba(0, 0, 0, 0.4);
 }
 
+/*FOOTER*/
+
 footer{
   display: grid;
-  grid-template-columns: repeat(2, 40%);
+  grid-template-columns: repeat(2, 45%);
   justify-content: center;
   background-color: white;
   padding-top: 4.375rem;
@@ -664,7 +666,7 @@ label{
   flex-direction: column;
   justify-content: center;
   gap: 1.875rem;
-  padding: 0 100px;
+  padding: 0 50px;
   color: #141414;
 }
 
